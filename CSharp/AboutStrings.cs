@@ -62,9 +62,9 @@ namespace DotNetKoans.CSharp
             var verbatimString = @"I
 am a
 broken line";
-            //Assert.Equal(20, verbatimString.Length);
+            Assert.Equal(20, verbatimString.Length);
             var literalString = "I\r\nam a\r\nbroken line";
-            Assert.Equal(literalString, verbatimString);  // *** NEED TO ASK ABOUT THIS ONE AND FIX IT
+            Assert.Equal(literalString, verbatimString);  
         }
 
         [Koan(7)]
